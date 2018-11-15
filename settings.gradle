@@ -76,7 +76,7 @@ niagaraRoots.collect({ file(it) }).findAll({ it.exists() }).each { File projectR
 }
 
 // Can we change the rootproject.name?
-rootProject.name = 'niagara'
+rootProject.name = 'record'
 rootProject.children.each { project ->
   project.projectDir = discoveredProjects[project.name]
   project.buildFileName = "${project.name}.gradle"
