@@ -1,0 +1,24 @@
+
+description     = "history record and reference enums, and json support"
+ext {
+}
+
+niagaraModule {
+  preferredSymbol = "record"
+  moduleName = "record"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+    compile "Tridium:alarm-rt:4.0"
+    compile "Tridium:baja:4.0"
+    compile "Tridium:control-rt:4.0"
+    compile "Tridium:history-rt:4.0"
+    compile "Tridium:nre:4.0"
+}
+
+jar{
+    from("src/lexicons"){
+        into("lexicons")
+    }
+}

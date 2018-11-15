@@ -1,0 +1,32 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!--com.guardian.enums-->
+  <type class="com.guardian.enums.BControlPointTypeEnum" name="ControlPointTypeEnum"/>
+  <type class="com.guardian.enums.BDirectEnum" name="DirectEnum"/>
+  <type class="com.guardian.enums.BHistoryPolicyEnum" name="HistoryPolicyEnum"/>
+  <type class="com.guardian.enums.BHistoryRecordMethodEnum" name="HistoryRecordMethodEnum"/>
+  <type class="com.guardian.enums.BHistoryTagEnum" name="HistoryTagEnum"/>
+  <type class="com.guardian.enums.BHistoryTypeEnum" name="HistoryTypeEnum"/>
+  <type class="com.guardian.enums.BLatTagEnum" name="LatTagEnum"/>
+  <type class="com.guardian.enums.BLngTagEnum" name="LngTagEnum"/>
+  <type class="com.guardian.enums.BLogTypeEnum" name="LogTypeEnum"/>
+  <type class="com.guardian.enums.BAlarmLevelTypeEnum" name="AlarmLevelTypeEnum"/>
+  <!--com.guardian.history.records-->
+  <type class="com.guardian.history.records.BAlarmCountHistoryRecord" name="AlarmCountHistoryRecord"/>
+  <type class="com.guardian.history.records.BAlarmLogRecord" name="AlarmLogRecord"/>
+  <type class="com.guardian.history.records.BAlarmOpenRecord" name="AlarmOpenRecord"/>
+  <type class="com.guardian.history.records.BBooleanHistoryRecord" name="BooleanHistoryRecord"/>
+  <type class="com.guardian.history.records.BDeviceSummaryRecord" name="DeviceSummaryRecord"/>
+  <type class="com.guardian.history.records.BEnergyIntervalRecord" name="EnergyIntervalRecord"/>
+  <type class="com.guardian.history.records.BEnumHistoryRecord" name="EnumHistoryRecord"/>
+  <type class="com.guardian.history.records.BFeeIntervalRecord" name="FeeIntervalRecord"/>
+  <type class="com.guardian.history.records.BGpsPositionHistoryRecord" name="GpsPositionHistoryRecord"/>
+  <type class="com.guardian.history.records.BLogTrendRecord" name="LogTrendRecord"/>
+  <type class="com.guardian.history.records.BNumericHistoryRecord" name="NumericHistoryRecord"/>
+  <type class="com.guardian.history.records.BRunCountHistoryRecord" name="RunCountHistoryRecord"/>
+  <type class="com.guardian.history.records.BStationSummaryRecord" name="StationSummaryRecord"/>
+  <type class="com.guardian.history.records.BStringHistoryRecord" name="StringHistoryRecord"/>
+  <type class="com.guardian.history.records.BValueHistoryRecord" name="ValueHistoryRecord"/>
+  <type class="com.guardian.history.records.BMessageTrendRecord" name="MessageTrendRecord"/>
+</types>
